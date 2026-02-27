@@ -30,6 +30,8 @@ cd voaBOT
 
 # Instalar dependencias
 npm install
+#ejecutar
+bash install.sh
 ```
 
 ---
