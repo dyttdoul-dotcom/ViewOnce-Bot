@@ -10,9 +10,6 @@ echo "[1/5] Actualizando Termux..."
 pkg update -y && pkg upgrade -y
 echo "[2/5] Instalando Node.js y Git..."
 pkg install -y nodejs git
-echo "[3/5] Clonando repositorio..."
-git clone https://github.com/dyttdoul-dotcom/ViewOnce-Bot.git voaBOT
-cd voaBOT
 echo "[4/5] Instalando dependencias..."
 npm install
 
@@ -24,8 +21,5 @@ echo "║  Cómo usar:                      ║"
 echo "║                                  ║"
 echo "║  cd voaBot                       ║"
 echo "║  node index.js                   ║"
-echo "║                                  ║"
-echo "║  Con pairing code:               ║"
-echo "║  node index.js -pc 573001234567  ║"
 echo "╚═════════════════════════════╝"
 echo ""
